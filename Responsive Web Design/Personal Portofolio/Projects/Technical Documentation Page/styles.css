@@ -1,0 +1,99 @@
+@media only screen and (min-width: 900px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav {
+        min-width: 350px;
+        height: 100vh;
+        border-right: inset gray;
+        overflow: auto;
+        position: fixed;
+        left: 0;
+        margin-left: -32px;
+    }
+    nav li {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    main {
+        margin-left: 300px;
+    }
+
+}
+@media only screen and (max-width: 900px){
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul{
+        width: 80%;
+        height: 300px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin: 0 auto;
+        border: inset gray;
+        border-right: none;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 15px auto;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+}
+
+nav header{
+    margin: 20px auto;
+    text-align: center;
+}
+
+header{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav li:not(:first-child){
+        border-top: 2px solid gray;
+        padding-top: 20px;
+    }
+nav li {
+    list-style: none;
+}
+nav a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+main {
+    max-width: 100%;
+}
+
+.main-section header{
+    text-align: left;
+    margin: 20px 40px;
+}
+.main-section p{
+    text-align: left;
+    margin: 15px 50px;
+}
+.main-section ul{
+    margin: 15px 70px;
+}
+.main-section li {
+    margin: 10px 0;
+}
+
+.code{
+    display: block;
+    background-image: linear-gradient(180deg, rgb(245,245,245) 80%, rgb(242,242,242) 100%);
+    font-size: 15px;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 30px;
+    border-radius: 10px;
+}

@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    height: 100vh;
+    width: 50%;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img{
+    width: 30%;
+}
+
+#title p{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+    height: 7em;
+    color: black;
+    border-radius: 20px;
+}
+
+#text-input {
+    border: 0;
+    border-bottom: 2px solid purple;
+    background: transparent;
+}
+
+#text-input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+}
+
+#check button {
+    background-color: purple;
+    color: white;
+}
+
+#definition {
+    width: 70%;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#definition p {
+    margin-left: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+#result{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1343px) {
+    #definition {
+        height: 11em;
+    }
+}
+
+@media only screen and (max-width: 1137px){
+    #input label {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    #definition {
+        height: 13em;
+    }
+
+    #input {
+        height: 20em;
+        padding: 20px;
+    }
+
+    #input #check {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 874px){
+    #definition {
+        height: 15em;
+    }
+}

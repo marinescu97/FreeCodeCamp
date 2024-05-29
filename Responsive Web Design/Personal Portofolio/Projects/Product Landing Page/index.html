@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<body>
+    <div class="container-fluid">
+        <header id="header">
+            <div id="logo">
+                <img id="header-img" src="logo.png" alt="logo">
+                <p>Robot vacuum cleaner</p>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1 id="titl">Effortless Cleanliness, Elevated Living</h1>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email address">
+                    <input id="submit" class="btn btn-primary" type="submit" value="GET STARTED" />
+                </form>
+            </section>
+            <section id="features">
+                <div class="article">
+                    <i class="fas fa-map-marked-alt fa-2x"></i>
+                    <div class="text">
+                        <h2>Smart Mapping Technology</h2>
+                        <p>Precision in navigation through advanced sensors and mapping capabilities, ensuring efficient and thorough cleaning without missing spots.</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <i class="fas fa-cogs fa-2x"></i>
+                    <div class="text">
+                        <h2>Adaptive Cleaning Modes</h2>
+                        <p>Versatile modes catering to different floor types (carpet, hardwood, tile) and varying debris levels, adjusting suction power and cleaning patterns accordingly.</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <i class="fa-solid fa-battery-full fa-2x"></i>
+                    <div class="text">
+                        <h2>Efficient Battery Life</h2>
+                        <p>Extended battery runtime ensuring longer cleaning sessions without frequent recharging, coupled with automatic docking for recharging when needed.</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <i class="fas fa-wifi fa-2x"></i>
+                    <div class="text">
+                        <h2>Wi-Fi Connectivity and App Control</h2>
+                        <p>Seamless integration with smartphones or smart home systems for remote control, scheduling, and monitoring cleaning progress from anywhere.</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <i class="fas fa-filter fa-2x"></i>
+                    <div class="text">
+                        <h2>High-Performance Filtration</h2>
+                        <p>Superior filtration systems (HEPA filters, for instance) trapping allergens and fine dust particles, ensuring cleaner air and a healthier home environment.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="how">
+                <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/yjsW8y0f9GU?si=2lRjwTQKzo6SRAJX&amp;start=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+</iframe>
+            </section>
+            <section id="pricing">
+                <div class="card">
+                    <div class="title">SwiftClean Pro</div>
+                    <div class="price">$199</div>
+                    <div class="description">
+                        <p>Smart Navigation</p>
+                        <p>Multi-Surface Cleaning</p>
+                        <p>Scheduled Cleaning</p>
+                    </div>
+                    <button class="btn btn-primary">SELECT</button>
+                </div>
+                <div class="card">
+                    <div class="title">TechSweep Elite</div>
+                    <div class="price">$349</div>
+                    <div class="description">
+                        <p>Smart Mapping Technology</p>
+                        <p>Adaptive Cleaning Modes</p>
+                        <p>App Control</p>
+                    </div>
+                    <button class="btn btn-primary">SELECT</button>
+                </div>
+                <div class="card">
+                    <div class="title">PowerVac Ultra</div>
+                    <div class="price">$499</div>
+                    <div class="description">
+                        <p>Strong Suction Power</p>
+                        <p>Extended Battery Life</p>
+                        <p>HEPA Filtration</p>
+                    </div>
+                    <button class="btn btn-primary">SELECT</button>
+                </div>
+                <div class="card">
+                    <div class="title">RoboMaid Supreme</div>
+                    <div class="price">$799</div>
+                    <div class="description">
+                        <p>Laser Mapping & Navigation</p>
+                        <p>Voice Control Compatibility</p>
+                        <p>Zone Cleaning</p>
+                    </div>
+                    <button class="btn btn-primary">SELECT</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <span>Copyright 2016, Original Trombones</span>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
